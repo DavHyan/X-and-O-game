@@ -1,0 +1,58 @@
+*{
+    user-select: none;
+}
+
+
+.consturctor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+
+#line1{
+    border-bottom: 5px black solid;
+    border-right: 5px black solid;
+}
+
+#line2{
+    border-bottom: 5px black solid;
+    border-right: 5px black solid;
+}
+
+#line3{
+    border-bottom: 5px black solid;
+}
+
+#line4{
+    border-bottom: 5px black solid;
+    border-right: 5px black solid;
+}
+
+#line5{
+    border-bottom: 5px black solid;
+    border-right: 5px black solid;
+}
+
+#line6{
+    border-bottom: 5px black solid;
+}
+
+#line7{
+    border-right: 5px black solid;
+}
+
+#line8{
+    border-right: 5px black solid;
+}
+
+
+
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}
